@@ -30,6 +30,7 @@ main img{
     height:auto;
     box-shadow: #333 10px 0 18px;
     border:#eee 1px solid;
+    padding:5px;
 }
 p{
     padding:0;
