@@ -6,8 +6,9 @@ nav{
     padding:1rem;
 }
 nav a{
-    background-color:#eee;
+    color:#eee;
     padding:10px;
+    display: block
 }
 aside{
     width:20rem;
