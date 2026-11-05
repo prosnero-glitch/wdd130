@@ -1,7 +1,6 @@
 *{
     margin:0;
-    padding:0;
-}
+    padding:0;}
 
 body{
     font-family: Arial,sans-serif;
@@ -11,7 +10,7 @@ body{
 header, footer{
     background-color: #333;
     color:#fff;
-    padding:9px;
+    padding:0px;
     text-align:center;
     font-size:.9rem;
 }
