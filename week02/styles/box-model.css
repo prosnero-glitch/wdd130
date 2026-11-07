@@ -1,15 +1,43 @@
 .callout {
+    max-width: 700px;;
+    margin: 1px;;
+    border:0capsule ;
+    padding: 2px;
+    background-color:rgb(58, 58, 196);
+    color:white;
     /* write declarations here */
 }
 
 .callout img {
+    float: right;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 3px;
+    background-color: #f0f0f0;
+    width: 100px;
+    height: 100px;
+    /* write declarations here */
+}
+main {
+max-width:fit-content;
+    height: 00px;
+    margin: 0 auto;
+    padding: 20px;
     /* write declarations here */
 }
 
 blockquote {
+    float:down;
+    margin:10px;
+    font-size:30px;
     /* write declarations here */
 }
 
-cite {
+cite {display:block; 
+    border-top:0.9px solid black; 
+    padding-top:8px;
+    text-align:right;
+    font-size:20px;
+    font-style: italic;
     /* write declarations here */
 }
