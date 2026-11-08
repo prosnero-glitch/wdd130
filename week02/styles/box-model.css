@@ -1,11 +1,12 @@
 .callout {
-    max-width: 700px;;
-    margin: 1px;;
-    border:0capsule ;
-    padding: 2px;
-    background-color:rgb(58, 58, 196);
-    color:white;
-    /* write declarations here */
+    max-width: 400px;
+    margin: 1px;
+    border: 10px;
+    padding: 12px;
+    background-color: #247;
+    color: white;
+    height: auto
+        /* write declarations here */
 }
 
 .callout img {
@@ -16,10 +17,12 @@
     background-color: #f0f0f0;
     width: 100px;
     height: 100px;
-    /* write declarations here */
+    font-size: 7px
+        /* write declarations here */
 }
+
 main {
-max-width:fit-content;
+    max-width: fit-content;
     height: 00px;
     margin: 0 auto;
     padding: 20px;
@@ -27,17 +30,16 @@ max-width:fit-content;
 }
 
 blockquote {
-    float:down;
-    margin:10px;
-    font-size:30px;
+    margin: 0px;
     /* write declarations here */
 }
 
-cite {display:block; 
-    border-top:0.9px solid black; 
-    padding-top:8px;
-    text-align:right;
-    font-size:20px;
+cite {
+    display: block;
+    border-top: 0.1px dotted white;
+    padding-top: 8px;
+    text-align: right;
+    font-size: 10px;
     font-style: italic;
     /* write declarations here */
 }
