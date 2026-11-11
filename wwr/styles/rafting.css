@@ -1,1 +1,14 @@
-:root
+:root {
+    --primary-color: #055a05;
+    --secondary-color: #f4a216;
+    --heading-font: "Times New Roman", Georgia, serif;
+    --accent1-color: #264;
+    --accent2-color: #eee;
+    --body-font: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+    background-color: var var(--primary-color);
+    color: var (var(--accent2-color))
+}
