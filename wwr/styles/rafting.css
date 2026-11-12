@@ -88,3 +88,9 @@ h1 {
 article h3 {
     margin: 10px
 }
+
+.socialmedia img {
+    width: 24px;
+    height: auto;
+    margin: 5px, 12px;
+}
