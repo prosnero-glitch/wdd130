@@ -3,7 +3,7 @@
     --secondary-color: #f4a216;
     --heading-font: "Times New Roman", Georgia, serif;
     --accent1-color: #264;
-    --accent2-color: #eee;
+    --accent2-color: #900505;
     --body-font: Arial, Helvetica, sans-serif;
 
 }
@@ -14,7 +14,7 @@ nav a:hover {
 
 header {
     background-color: var(--primary-color);
-    color: var var(--accent2-color)
+    color: var(--accent2-color)
 }
 
 * {
@@ -95,4 +95,7 @@ article h3 {
     margin: 5px, 12px;
 }
 
-footer
+footer p {
+    margin: 12px;
+    border: 12px;
+}
