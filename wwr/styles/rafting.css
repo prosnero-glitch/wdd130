@@ -8,6 +8,10 @@
 
 }
 
+header img {
+    width: 70px;
+}
+
 nav a:hover {
     color: var(--secondary-color);
 }
@@ -31,7 +35,7 @@ body {
 header,
 main,
 footer {
-    width: 480px;
+    width: 400px;
     margin: 0 auto;
 }
 
@@ -45,8 +49,8 @@ nav,
 p,
 section,
 article {
-    margin: 16px;
-    padding: 18px;
+    margin: 10px;
+    padding: 10px;
 }
 
 .socialmedia a {
@@ -65,7 +69,7 @@ article {
 }
 
 .hero article {
-    position: absolute;
+    position: relative;
     right: 0;
 }
 
@@ -85,10 +89,6 @@ h1 {
 
 }
 
-article h3 {
-    margin: 10px
-}
-
 .socialmedia img {
     width: 24px;
     height: auto;
@@ -96,6 +96,6 @@ article h3 {
 }
 
 footer p {
-    margin: 12px;
-    border: 12px;
+    margin: 5px;
+    border: 5px;
 }
