@@ -64,10 +64,9 @@ article {
     width: ;
 }
 
-.hero article,
-{
-position: absolute;
-right: 0;
+.hero article {
+    position: absolute;
+    right: 0;
 }
 
 .hero article img {
