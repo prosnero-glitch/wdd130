@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #055a05;
+    --primary-color: #5a2e237b;
     --secondary-color: #f4a216;
     --heading-font: "Times New Roman", Georgia, serif;
     --accent1-color: #264;
@@ -9,8 +9,8 @@
 }
 
 header {
-    background-color: var var(--primary-color);
-    color: var (var(--accent2-color))
+    background-color: var(--primary-color);
+    color: var var(--accent2-color)
 }
 
 * {
@@ -34,7 +34,7 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color)
+    color: var(--primary-color);
 }
 
 nav,
@@ -57,7 +57,7 @@ article {
 .hero img {
     display: block;
     width: 100%;
-    width: auto;
+    width: ;
 }
 
 h1 {
@@ -74,7 +74,7 @@ h1 {
 
 .hero,
 article,
-img {
-    float: right;
-
+{
+float: right;
+width: 125px;
 }
