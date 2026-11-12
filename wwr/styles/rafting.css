@@ -60,6 +60,16 @@ article {
     width: ;
 }
 
+.hero article,
+{
+position: absolute;
+right: 0;
+}
+
+.hero article img {
+    float: right;
+}
+
 h1 {
     position: absolute;
     top: 20%;
@@ -70,11 +80,4 @@ h1 {
     background-color: var(--accent1-color);
     color: #fff;
 
-}
-
-.hero,
-article,
-{
-float: right;
-width: 125px;
 }
