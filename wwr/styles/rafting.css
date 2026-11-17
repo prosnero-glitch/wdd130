@@ -18,10 +18,21 @@ nav a:hover {
 
 }
 
+nav a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff
+}
+
 nav {
     display: flex;
-    justify-content: space-around;
-    align-items: right;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    background-color: steelblue;
 }
 
 header {
@@ -46,7 +57,7 @@ body {
 header,
 main,
 footer {
-    width: 80%;
+    width: 840px;
     margin: 0 auto
 }
 
@@ -82,12 +93,11 @@ article {
 .hero-text {
     position: absolute;
     top: 70px;
-    /* places it below the h1 */
     left: 10%;
     width: 80%;
     padding: 12px;
-    margin: 30px;
-    background-color: whitesmoke;
+    margin: 40px;
+    background-color: rgba(245, 245, 245, 0.8);
 }
 
 .hero article {
