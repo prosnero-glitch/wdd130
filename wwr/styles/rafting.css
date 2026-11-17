@@ -16,7 +16,16 @@ nav a:hover {
     color: var(--secondary-color);
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
     background-color: var(--primary-color);
     color: var(--accent2-color)
 }
