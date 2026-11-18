@@ -11,6 +11,10 @@ footer,
     align-items: center;
 }
 
+.grid {
+    grid-template-columns: 1fr 2fr;
+}
+
 nav {
     display: flex;
     justify-content: space-evenly;
