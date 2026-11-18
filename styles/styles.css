@@ -1,5 +1,14 @@
 main {
     max-width: 840px;
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+header,
+footer,
+.grid {
+    display: grid;
+    align-items: center;
 }
 
 nav {
@@ -22,16 +31,14 @@ nav a {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
-    text-align: center
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 h1 {
     color: #333;
+    border-bottom: 2px solid black
 }
 
 aside img {
