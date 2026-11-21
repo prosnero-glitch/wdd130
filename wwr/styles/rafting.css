@@ -110,39 +110,32 @@ article {
 
 }
 
-.hero-text {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
-.hero-text p {
-    width: 50%
-}
-
-.hero-text img {
-    width: 50%;
-    margin: 20px;
-}
-
+.hero article,
 .hero-text {
     position: absolute;
-    top: 70px;
+    top: 30px;
     left: 10%;
     width: 80%;
     padding: 12px;
     margin: 40px;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
     background-color: rgba(245, 245, 245, 0.8);
     color: #1f3b2d;
 }
 
-.hero article {
-    position: relative;
-    right: 0;
+.hero-text p {
+    flex: 1;
+    width: auto;
+    margin: 0;
 }
 
-.hero article img {
-    float: center;
+.hero article img,
+.hero-text img {
+    flex: 0 0 35%;
+    width: 35%;
+    margin: 0;
 }
 
 h1 {
