@@ -94,7 +94,7 @@ article {
 
 .history img {
     width: 50%;
-    float:
+
 }
 
 .hero {
@@ -118,8 +118,8 @@ article {
 }
 
 .hero-text img {
-    margin-left: auto;
-    width: 30%;
+    width: 50%;
+    margin: 20px;
 }
 
 .hero-text {
